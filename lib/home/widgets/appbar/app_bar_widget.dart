@@ -8,14 +8,14 @@ class AppBarWidget extends PreferredSize {
       : super(
             preferredSize: Size.fromHeight(250),
             child: Container(
-                height: 250,
-                decoration: BoxDecoration(gradient: AppGradients.linear),
+                height: 280,
                 child: Stack(
                   children: [
                     Container(
-                      height: 161,
+                      height: 200,
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       width: double.maxFinite,
+                      decoration: BoxDecoration(gradient: AppGradients.linear),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
